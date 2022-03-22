@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Estonia&family=Lobster&family=Lobster+Two&family=Metal+Mania&family=Raleway:ital,wght@0,100;0,400;1,100;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Estonia&family=Lobster&family=Lobster+Two&family=Metal+Mania&family=Raleway:ital,wght@0,100;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Estonia&family=Lobster&family=Lobster+Two&family=Metal+Mania&family=Oswald:wght@600&family=Raleway:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Estonia&family=Lobster&family=Lobster+Two&family=Metal+Mania&family=Oswald:wght@600;700&family=Raleway:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Dosis:wght@200&family=Estonia&family=Lobster&family=Lobster+Two&family=Metal+Mania&family=Oswald:wght@600;700&family=Raleway:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(31, 17, 17);
+    background-color: rgba(8, 8, 8,);
+}
+.brand-name {
+    font-family: Oswald;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+
+}
+.main-header{
+    /*
+    background-image: url(back\ new.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-color:rgb(241, 107, 174, 0.8);
+}
+
+.main-nav ul{
+    margin: 0;
+    padding-top: 30px;
+    
+}
+
+nav li{
+    display: inline-block;
+    
+
+}
+ nav a{
+     padding: 0px 15px;
+     text-decoration: none;
+    
+     color: whitesmoke; 
+     font-weight: normal;
+     font-family: Bebas Neue;
+     font-size: 1.5em;
+     
+     
+
+ }
+ a:hover{
+     color: rgba(17, 16, 16, 0.9);
+     border-bottom: 2px black solid;
+
+ }
+.main-nav{
+    text-align: end;
+    padding-bottom: 1px;
+    
+}
+
+.logo{
+    float: right;
+    width: 100px;
+    margin:0;
+    padding:0;
+    margin-top: 2em;
+    margin-right: 4em;
+}
+.content{
+    margin: 1.5em;
+    font-size: 3em;
+    
+}
+.container{
+    max-width: auto;
+    margin: 0, auto;
+}
+.image1{
+    float: right;
+    width: 500px;
+    height: 250px;
+    margin: 1.5em;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+.main-footer{
+    background-color : rgb(212, 120, 135);
+
+    font-size: 0.5em;
+}
+ footer .brand-name {
+    color:black;
+    padding-left: 350px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container ul{
+    text-align: center;
+    flex-grow: 1;
+    padding-right: 360px;
+}
+.footer-nav li{
+    padding: 0 0.5em;
+    display: inline;   
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+#navbar {
+position: fixed;
+right: 6em;
+top: -20px;
+
+}
+.vid{
+    width: 500px;
+    height: 250px;
+    float: right;
+    margin: 1.5em;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding: 0 -2em;
+}
+
+.core{
+    border-bottom: 2px, solid, rgb(79, 182, 10);
+    color: blue;
+}
+
+.main-about{
+    color: rgb(14, 13, 13);
+    background-color: rgb(247, 245, 243);
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 30px 35px 0px 40px;
+}
+.img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    padding-top: 1.5em;
+}
+    .about{
+        font-size: 1.8em;
+    }
+.about::after{
+    background: linear-gradient(to right, red 33.33%, green 33.33%, green 66.67%, red 66.67%);
+    height: 15px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 280px;    
+
+}
+
+.value{
+    background-color:rgba(114, 112, 108, 0.3);
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    font-size: 33px;
+    padding-left: 1.5em;
+    margin-bottom: 0px;
+    padding-top: 0.1px;
+    margin-top: 0px;
+    font-family: Raleway;
+}
+
+.core {
+    font-size: 2.5em;    
+    color: rgb(29, 21, 21);
+}
+
+.core:after {
+    background: linear-gradient(to right, red 33.33%, green 33.33%, green 66.67%, red 66.67%) no-repeat;
+    height: 15px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 620px;
+}
+.vision{
+    background-color: rgb(114, 112, 108, 0.5);
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 60px;
+    color:rgb(138, 39, 138);
+    font-weight: bolder;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: -1px;
+    margin-bottom: -5px;
+    align-items: center;
+    display: flex;
+    font-family: Raleway;
+}
+.vision stan{
+    color: white;
+    padding-left: 1em;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.vision stan:after {
+    background: linear-gradient(to right, red 33.33%, green 33.33%, green 66.67%, red 66.67%);
+    height: 15px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 400px;
+}
+
+#i {
+    color: black;
+    text-align: end;
+    padding-left: 2.5em;
+}
+.mission-column{
+    columns: 3;
+    column-rule: solid 2px rgb(56, 56, 52);
+    background-color: rgba(114, 112, 108, 0.9);
+    column-gap: 50px;
+    font-size: 30px;
+    padding: 50px 25px;
+    font-family: Raleway;
+    
+}
+.numb{
+    font-weight: bolder;
+}
+
+.mission{
+    color: black;
+    background-color: rgb(114, 112, 108);
+    font-size: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+
+}
+.miss{
+    padding: 30px 35px 10px 40px;
+}
+.miss stan{
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+.miss stan:after{
+    background: linear-gradient(to right, red 33.33%, green 33.33%, green 66.67%, red 66.67%);
+    height: 15px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 330px;
+}
+
+.brands-logo{
+    object-fit: contain;
+    height: 50px;
+    width: auto;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.brands-text{
+    margin: 10px 60px;
+    font-weight: bold;
+    overflow: auto;
+    line-height: 30px;
+    word-spacing: 5px;
+    font-family: Dosis;
+    font-size: 20px;
+}
+.brands-image{
+    object-fit: contain;
+    height: 500px;
+    float: right;
+    overflow: auto;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-right: 7px rgb(247, 121, 121) solid;
+    border-bottom: 10px rgb(212, 120, 135) solid;
+}
+
+.clearfix ::after{ 
+    content: "";
+    clear: both;
+    display: table
+}
+
+
+  
